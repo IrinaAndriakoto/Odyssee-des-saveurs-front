@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'odyssee-des-saveurs-app';
+  protected title = 'Home page';
 }
