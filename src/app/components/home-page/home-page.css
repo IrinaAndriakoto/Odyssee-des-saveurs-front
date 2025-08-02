@@ -4,7 +4,7 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background-image: url('https://readdy.ai/api/search-image?query=elegant%20french%20restaurant%20interior%20with%20warm%20lighting%2C%20deep%20red%20accents%2C%20cream%20colored%20walls%2C%20sophisticated%20dining%20atmosphere%2C%20fine%20dining%20setup%20with%20wine%20glasses%20and%20candles%2C%20luxurious%20ambiance%20with%20soft%20shadows%20and%20golden%20highlights&width=1920&height=1080&seq=hero001&orientation=landscape');
+            background-image: url('/img/ods-home.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -279,7 +279,7 @@
         
         /* Reservations Section */
         .reservations-container {
-            max-width: 56rem;
+            max-width: 65rem;
             margin: 0 auto;
             padding: 0 1.5rem;
         }
@@ -314,7 +314,7 @@
         }
         
         .form-input {
-            width: 100%;
+            width: 90%;
             padding: 0.75rem 1rem;
             background-color: var(--white);
             border: 1px solid var(--gray-medium);
@@ -333,7 +333,7 @@
         }
         
         .dropdown-btn {
-            width: 100%;
+            width: 97.4%;
             padding: 0.75rem 1rem;
             background-color: var(--white);
             border: 1px solid var(--gray-medium);
@@ -382,7 +382,7 @@
         }
         
         .form-textarea {
-            width: 100%;
+            width: 90%;
             padding: 0.75rem 1rem;
             background-color: var(--white);
             border: 1px solid var(--gray-medium);
@@ -399,7 +399,7 @@
         }
         
         .form-submit {
-            width: 100%;
+            width: 97.4%;
             padding: 1rem 2rem;
             background-color: var(--primary);
             color: var(--white);

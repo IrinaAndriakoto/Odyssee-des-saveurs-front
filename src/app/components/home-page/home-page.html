@@ -9,12 +9,16 @@
                         Where culinary artistry meets timeless elegance in the heart of the city
                     </p>
                     <div class="hero-buttons">
-                        <button class="hero-btn btn-primary-lg">
-                            View Our Menu
-                        </button>
-                        <button class="hero-btn btn-secondary-lg">
-                            Make Reservation
-                        </button>
+                        <a href="#menu">
+                            <button class="hero-btn btn-primary-lg">
+                                View Our Menu
+                            </button>
+                        </a>
+                        <a href="#reservations">
+                            <button class="hero-btn btn-secondary-lg">
+                                Make Reservation
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -38,7 +42,7 @@
                 <div class="menu-grid">
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=elegant%20coq%20au%20vin%20french%20dish%20beautifully%20plated%20with%20wine%20reduction%20sauce%2C%20garnished%20with%20pearl%20onions%20and%20herbs%2C%20professional%20food%20photography%20with%20warm%20lighting%20and%20cream%20colored%20background&width=400&height=300&seq=dish001&orientation=landscape" 
+                            <img src="/img/menu/coq-au-vin.jpg" 
                                  alt="Coq au Vin">
                         </div>
                         <div class="menu-card-content">
@@ -49,7 +53,7 @@
                     </div>
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=exquisite%20beef%20bourguignon%20french%20stew%20with%20tender%20beef%20chunks%2C%20rich%20wine%20sauce%2C%20carrots%20and%20onions%2C%20elegantly%20presented%20in%20fine%20dining%20style%20with%20cream%20background%20and%20professional%20lighting&width=400&height=300&seq=dish002&orientation=landscape" 
+                            <img src="/img/menu/beef-bourguignon.jpg" 
                                  alt="Beef Bourguignon">
                         </div>
                         <div class="menu-card-content">
@@ -60,7 +64,7 @@
                     </div>
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=sophisticated%20bouillabaisse%20seafood%20stew%20with%20fresh%20fish%2C%20mussels%2C%20shrimp%20and%20saffron%20broth%2C%20garnished%20with%20rouille%20and%20crusty%20bread%2C%20fine%20dining%20presentation%20on%20cream%20background&width=400&height=300&seq=dish003&orientation=landscape" 
+                            <img src="/img/menu/Bouillabaisse.jpg" 
                                  alt="Bouillabaisse">
                         </div>
                         <div class="menu-card-content">
@@ -71,7 +75,7 @@
                     </div>
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=delicate%20duck%20confit%20with%20crispy%20skin%2C%20served%20with%20roasted%20vegetables%20and%20cherry%20sauce%2C%20elegant%20plating%20on%20white%20porcelain%20with%20cream%20background%20and%20professional%20food%20photography%20lighting&width=400&height=300&seq=dish004&orientation=landscape" 
+                            <img src="/img/menu/Duck-Confit.jpg" 
                                  alt="Duck Confit">
                         </div>
                         <div class="menu-card-content">
@@ -82,7 +86,7 @@
                     </div>
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=luxurious%20lobster%20thermidor%20with%20creamy%20sauce%2C%20cheese%20gratinated%20top%2C%20served%20in%20lobster%20shell%20with%20elegant%20garnish%2C%20fine%20dining%20presentation%20on%20cream%20background%20with%20warm%20lighting&width=400&height=300&seq=dish005&orientation=landscape" 
+                            <img src="/img/menu/Lobster-Thermidor.jpg" 
                                  alt="Lobster Thermidor">
                         </div>
                         <div class="menu-card-content">
@@ -93,7 +97,7 @@
                     </div>
                     <div class="menu-card">
                         <div class="menu-card-img">
-                            <img src="https://readdy.ai/api/search-image?query=artisanal%20tarte%20tatin%20with%20caramelized%20apples%2C%20flaky%20pastry%20crust%2C%20vanilla%20ice%20cream%20scoop%2C%20elegant%20dessert%20presentation%20on%20white%20plate%20with%20cream%20background%20and%20soft%20lighting&width=400&height=300&seq=dish006&orientation=landscape" 
+                            <img src="/img/menu/Tarte-Tatin.jpg" 
                                  alt="Tarte Tatin">
                         </div>
                         <div class="menu-card-content">
@@ -158,22 +162,15 @@
                         <div class="form-group">
                             <label class="form-label">Party Size</label>
                             <div class="dropdown">
-                                <button type="button" class="dropdown-btn" id="partySizeBtn">
-                                    <span id="partySizeText">Select party size</span>
-                                    <div class="w-5 h-5 flex items-center justify-center">
-                                        <i class="ri-arrow-down-s-line"></i>
-                                    </div>
-                                </button>
-                                <div class="dropdown-menu" id="partySizeDropdown">
-                                    <div class="py-2">
-                                        <button type="button" class="dropdown-item" data-value="1">1 Person</button>
-                                        <button type="button" class="dropdown-item" data-value="2">2 People</button>
-                                        <button type="button" class="dropdown-item" data-value="3">3 People</button>
-                                        <button type="button" class="dropdown-item" data-value="4">4 People</button>
-                                        <button type="button" class="dropdown-item" data-value="5">5 People</button>
-                                        <button type="button" class="dropdown-item" data-value="6">6+ People</button>
-                                    </div>
-                                </div>
+                                <select name="" id="" class="dropdown-btn">
+                                    <option value="#">--</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6+ People</option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -274,7 +271,7 @@
                 </div>
             </div>
             <div class="footer-divider">
-                <p>&copy; 202 L'odyssée des saveurs. All rights reserved. | <a href="" class="href-privacy-terms"> Privacy Policy </a> |  <a href="" class="href-privacy-terms">Terms of Service</a></p>
+                <p>&copy; 2025 L'odyssée des saveurs. All rights reserved. | <a href="" class="href-privacy-terms"> Privacy Policy </a> |  <a href="" class="href-privacy-terms">Terms of Service</a></p>
             </div>
         </div>
     </footer>
